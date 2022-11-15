@@ -1,0 +1,38 @@
+body {
+  background-color: aqua;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  body {
+    background-color: brown;
+  }
+  header {
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: beige;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: px;
+  }
+}

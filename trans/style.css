@@ -27,10 +27,15 @@ select {
   padding: 5px;
   box-sizing: border-box;
   color: mediumblue;
+  transition: width 2s;
 }
 
 form input:focus {
   width: 200px;
   box-shadow: 0 0 10px rgb(55, 22, 141);
   transition: width 2s;
+}
+
+form button {
+  background-color: blueviolet;
 }
