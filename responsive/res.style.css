@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.head {
+  max-width: 100%;
+  height: 300px;
+  background-image: url(https://picsum.photos/200);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .card {
+    width: 49%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .card {
+    width: 32%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 24%;
+  }
+}
