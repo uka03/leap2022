@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social sudalgaa</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+         <header>
+        <h4 class="title">Social media хэрэглэгчдийн судалгаа</h4>
+        <p>Судалгаанд оролцсон таньд баярлалаа.</p>
+         </header>
+ <form>
+        <fieldset class="general">
+            <legend> Ерөнхий мэдээлэл</legend>
+            <label for="name">Нэр</label>
+            <input type="text" id="name"  required>
+            <label for="email">И-майл</label>
+            <input type="email" name="email" id="email" required>
+            <label for="age">Нас</label>
+            <input type="number" name="age" id="age" max="99" min="14" required>
+        </fieldset>
+        <fieldset class="social-media">
+            <legend>Social media</legend>
+            <label for="time">та өдөр хэдэн цаг soial media ашигладаг вэ?</label>
+            <select name="time" id="time" required > 
+                <option value="1-2hrs">1-2цаг</option>
+                <option value="3-4hrs">3-4цаг</option>
+                <option value="4-5hrs">4-5цаг</option>
+                <option value="5+hrs">5+цаг</option>
+            </select>
+            <div class="buy">
+            <label for="store">Та онлайнаар худалдан авалт хийх, дэлгүүр орж худалдан авалт хийхийн алийг нь илүүд үздэг вэ
+            </label>
+            <label for="store"><input type="radio" name="store" id="store"> <span>Онлайн худалдан авалт</span></label>
+            <label for="store"><input type="radio" name="store" id="store"><span>Дэлгүүр орж худалдан авалт хийх</span></label>
+        </div>
+<div class="platform">
+            <label for="Platform"> Та ямар soial media platform ашигладаг вэ?</label>
+            <label for="platform">
+                <input type="checkbox" 
+                name="Platform" id="platform">
+                <span>facebook</span>
+            </label>
+            <label for="platform">
+                
+                <input type="checkbox" name="Platform" id="platform">
+                <span>instagram</span>
+            </label>
+            <label for="platform">
+                
+                <input type="checkbox" name="Platform" id="platform">
+                <span>twitter</span>
+            </label>
+            <label for="platform">
+                
+                <input type="checkbox" name="Platform" id="platform">
+                <span>reddit</span>
+            </label>
+            <label for="platform">
+                
+                <input type="checkbox" name="Platform" id="platform">
+                <span>snapchat</span>
+            </label>
+            <label for="platform">
+                
+                <input type="checkbox" name="Platform" id="platform">
+                <span>quora</span>
+            </label>
+            <label for="platform">
+                
+                <input type="checkbox" name="Platform" id="platform">
+                <span>youtube</span>
+            </label>
+            <label for="platform">
+                
+                <input type="checkbox" name="Platform" id="platform">
+                <span>бусад</span>
+            </label>
+        </div>
+        </fieldset>
+        <footer>
+            <label for="comment">санал хүсэлт</label>
+            <textarea name="comment" id="comment" >Санал хүсэлтээ энд бичнэ үү ...</textarea>
+            <input type="submit" value="Илгээх">
+        </footer>
+    </form>
+</body>
+</html>
