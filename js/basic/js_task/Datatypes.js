@@ -33,6 +33,9 @@ let number1 = 18;
 let serialNumber = 20102034,
   phoneName = "iphone 14 pro ",
   lapptopName = "macbook air 2020";
+//task10
+let myAge = 18;
+let yourAge = myAge;
 //task11 gurwaljingiin p oloh
 let aside = parseFloat(prompt(" enter triangle A side"));
 let bside = parseFloat(prompt(" enter triangle b side"));
@@ -152,41 +155,195 @@ let itTeEd = "It's the end";
 let doo = "doo-doo";
 
 console.log(
-  "Baby Shark lyrics" + "\n"+
-  "\n" + baSh+ ", "+doo+", "+doo+
-  "\n" + baSh+ ", "+doo+", "+doo+
-  "\n" + baSh+ ", "+doo+", "+doo+
-  "\n" + baSh + "\n" +
-  "\n" + moSh+ ", "+doo+", "+doo+
-  "\n" + moSh+ ", "+doo+", "+doo+
-  "\n" + moSh+ ", "+doo+", "+doo+
-  "\n" + moSh + "\n" +
-  "\n" + daSh+ ", "+doo+", "+doo+
-  "\n" + daSh+ ", "+doo+", "+doo+
-  "\n" + daSh+ ", "+doo+", "+doo+
-  "\n" + daSh + "\n" +
-  "\n" + gmSh+ ", "+doo+", "+doo+
-  "\n" + gmSh+ ", "+doo+", "+doo+
-  "\n" + gmSh+ ", "+doo+", "+doo+
-  "\n" + gmSh + "\n" +
-  "\n" + gpSh+ ", "+doo+", "+doo+
-  "\n" + gpSh+ ", "+doo+", "+doo+
-  "\n" + gpSh+ ", "+doo+", "+doo+
-  "\n" + gpSh + "\n" +
-  "\n" + leGoHu+ ", "+doo+", "+doo+
-  "\n" + leGoHu+ ", "+doo+", "+doo+
-  "\n" + leGoHu+ ", "+doo+", "+doo+
-  "\n" + leGoHu + "\n" +
-  "\n" + ruAw+ ", "+doo+", "+doo+
-  "\n" + ruAw+ ", "+doo+", "+doo+
-  "\n" + ruAw+ ", "+doo+", "+doo+
-  "\n" + ruAw + "\n" +
-  "\n" + saAtLa+ ", "+doo+", "+doo+
-  "\n" + saAtLa+ ", "+doo+", "+doo+
-  "\n" + saAtLa+ ", "+doo+", "+doo+
-  "\n" + saAtLa + "\n" +
-  "\n" + itTeEd+ ", "+doo+", "+doo+
-  "\n" + itTeEd+ ", "+doo+", "+doo+
-  "\n" + itTeEd+ ", "+doo+", "+doo+
-  "\n" + itTeEd + "\n" 
-  );
+  "Baby Shark lyrics" +
+    "\n" +
+    "\n" +
+    baSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    baSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    baSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    baSh +
+    "\n" +
+    "\n" +
+    moSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    moSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    moSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    moSh +
+    "\n" +
+    "\n" +
+    daSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    daSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    daSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    daSh +
+    "\n" +
+    "\n" +
+    gmSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    gmSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    gmSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    gmSh +
+    "\n" +
+    "\n" +
+    gpSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    gpSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    gpSh +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    gpSh +
+    "\n" +
+    "\n" +
+    leGoHu +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    leGoHu +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    leGoHu +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    leGoHu +
+    "\n" +
+    "\n" +
+    ruAw +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    ruAw +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    ruAw +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    ruAw +
+    "\n" +
+    "\n" +
+    saAtLa +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    saAtLa +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    saAtLa +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    saAtLa +
+    "\n" +
+    "\n" +
+    itTeEd +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    itTeEd +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    itTeEd +
+    ", " +
+    doo +
+    ", " +
+    doo +
+    "\n" +
+    itTeEd +
+    "\n"
+);
