@@ -21,5 +21,3 @@ firstPart = str.substring(0, str.indexOf("is"));
 lastpart = str.substring(str.indexOf("is") + "is".length, str.length);
 
 console.log(firstPart.concat(lastpart));
-
-alert(Math.ceil(Math.random() * 6));
