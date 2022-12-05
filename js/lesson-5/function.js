@@ -5,7 +5,7 @@ let output = "";
 //     output = output + j + " ";
 //   }
 //   output = output + "\n";
-//   debugger;
+//   ;
 // }
 
 let output1 = "";
@@ -21,7 +21,6 @@ for (let row = 1; row <= n; row++) {
     }
   }
   output = output + "\n";
-  debugger;
 }
 console.log(output + "\n \n \n ");
 
@@ -30,7 +29,6 @@ for (let row = 1; row <= n; row++) {
     output = output + "*";
   }
   output = output + "\n";
-  debugger;
 }
 console.log(output);
 
@@ -45,8 +43,23 @@ console.log(number);
 
 let password = 123456789;
 let yourPass;
-while (password != Number(yourPass)) {
-  yourPass = prompt("enter your password");
+// while (password != Number(yourPass)) {
+// yourPass = prompt("enter your password");
+
+// alert("welcome");
+
+output = "";
+let count = 1;
+
+for (let row = 1; row >= 4; row++) {
+  for (let space = 4 - row; space > 0; space--) {
+    output = output + "-";
+  }
+  for (let num = 1; num >= row; num++) {
+    output = count + " ";
+    count++;
+  }
+  output = output + "\n";
 }
 
-alert("welcome");
+console.log(output);
