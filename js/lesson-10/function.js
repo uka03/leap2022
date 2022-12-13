@@ -63,16 +63,38 @@ let time = setInterval(function () {
     s < 10 ? "0" : ""
   }${s}`;
 }, 0);
-let i = 10;
+
 let wiDiv = document.getElementById("wDiv");
 wiDiv.style.height = "100px";
+wiDiv.style.width = `100px`;
 
 wiDiv.style.border = "1px solid black";
+gh();
+let i = 10;
+let color = 10;
+function gh() {
+  let grow = setInterval(function hi() {
+    i++;
+    wiDiv.style.backgroundColor = `rgb(200,${i},50)`;
+    wiDiv.style.width = `${i}px`;
 
-let width = setInterval(function () {
-  i++;
-  wiDiv.style.width = `${i}px`;
-  if (i == 1000) {
-    i = 0;
-  }
-}, 1);
+    if (i == 255) {
+      i = 255;
+      clearInterval(grow);
+      ws();
+    }
+  }, 10);
+}
+
+function ws() {
+  let back = setInterval(function hi() {
+    i--;
+    wiDiv.style.width = `${i}px`;
+    wiDiv.style.backgroundColor = `rgb(300,${i},50)`;
+    if (i == 100) {
+      i = 100;
+      clearInterval(back);
+      gh();
+    }
+  }, 10);
+}
