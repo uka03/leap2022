@@ -23,7 +23,7 @@ for (let i = 1; i <= 16; i++) {
     newDiv.style.width = "100px";
     newDiv.style.height = "100px";
     newDiv.style.border = "1px solid black ";
-    newDiv.style.backgroundColor = `rgb(${a},${b - 5},${c})`;
+    newDiv.style.backgroundColor = `rgb(${a},${b - 30},${c})`;
     console.log(`${a},${b - 10},${c}`);
   }
 }
